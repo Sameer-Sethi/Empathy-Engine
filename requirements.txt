@@ -1,4 +1,10 @@
-transformers
-torch
+# Emotion Detection
+transformers>=4.36.0
+torch>=2.0.0
+
+# Edge TTS (free Microsoft voices)
+edge-tts>=6.1.10
+
+# Utilities
 numpy
 python-dotenv
