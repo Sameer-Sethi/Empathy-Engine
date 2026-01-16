@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/empathy_engine/__init__.py
+src/empathy_engine/cli.py
+src/empathy_engine/emotion.py
+src/empathy_engine/mapping.py
+src/empathy_engine/test_run.py
+src/empathy_engine/tts.py
+src/empathy_engine.egg-info/PKG-INFO
+src/empathy_engine.egg-info/SOURCES.txt
+src/empathy_engine.egg-info/dependency_links.txt
+src/empathy_engine.egg-info/top_level.txt
