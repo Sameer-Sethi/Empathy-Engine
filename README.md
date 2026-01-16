@@ -5,7 +5,7 @@
 
 ## 1. Problem Statement
 
-Modern AI systems can generate accurate text responses, but their **voice output often lacks emotional depth**. Traditional Text-to-Speech (TTS) systems sound monotonic and robotic, failing to convey enthusiasm, concern, frustration, or empathy — qualities that are critical in sales, customer support, and human–AI interaction.
+Modern AI systems can generate accurate text responses, but their **voice output often lacks emotional depth**. Traditional Text-to-Speech (TTS) systems sound monotonic and robotic, failing to convey enthusiasm, concern, frustration, or empathy, qualities that are critical in sales, customer support, and human–AI interaction.
 
 The challenge was to build an **Empathy Engine**:  
 a system that dynamically **modulates speech characteristics** (pitch, speed, volume) based on the **emotion and emotional intensity** present in the input text.
