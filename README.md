@@ -31,17 +31,10 @@ This results in speech that:
 ---
 
 ## 3. System Architecture
-Input Text
-↓
-Emotion Detection (Transformer Model)
-↓
-Emotion Normalization + Intensity Scaling
-↓
-Emotion → Voice Parameter Mapping
-↓
-Edge TTS Speech Synthesis
-↓
-Audio Output (.mp3)
+Input Text -> Emotion Detection (Transformer Model) -> Emotion Normalization + Intensity Scaling
+-> Emotion → Voice Parameter Mapping
+-> Edge TTS Speech Synthesis
+-> Audio Output (.mp3)
 
 
 ---
@@ -122,21 +115,8 @@ These values are scaled proportionally using the detected intensity.
 ---
 
 
-## 9. Project Structure
 
-empathy-engine/
-├── src/
-│ └── empathy_engine/
-│ ├── emotion.py          # Emotion detection
-│ ├── mapping.py          # Intensity scaling & voice mapping
-│ ├── tts.py              # Edge TTS synthesis
-│ └── cli.py              # CLI interface
-├── outputs/              # Generated audio files
-├── requirements.txt
-├── pyproject.toml
-└── README.md
-
-## 10. Setup Instructions
+## 9. Setup Instructions
 
 ### a) Create Virtual Environment
 
